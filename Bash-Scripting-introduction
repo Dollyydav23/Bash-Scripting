@@ -53,3 +53,14 @@ so , here when you write a shell script , it just means you're writing a scripti
 - Brian Fox(FSF employee) began coding on bash and released Bash asbeta , version 0.99 on june 8,
  1989. Brian Fox remained in FSF as the primary Bash maintainner till 1993. Then he laid off from FSF,
  and chet Ramey (earlier contributor in FSF) got his responsibility.
+
+## System administrator use bash
+1. Automation task
+2. System operation
+3. Process data
+
+## Develops use bash
+1. Build automation
+2. Testing
+3. Deployment
+4. Data processing and maniplation
