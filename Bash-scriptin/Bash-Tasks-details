@@ -3,4 +3,30 @@
 1.	Bash script that monitors disk usage and generates an alert when usage exceeds a defined threshold (default: 80%).  It is ideal for system administrators and DevOps engineers to prevent servers from running out of disk space.
 2.	Creating a advanced log analyzer where we parsing a log file along with counting occurrence of "ERROR", "WARNIG", and "INFO". at the end printing the summary report with percentage.
 
-Command used for both the task are as follow:
+**Command used for both the task are as follow:**
+Explanation of Script Commands:- Task 1
+1. set -euo pipefail
+ - -e: Exit if any command fails.
+ - -u: Error if an undefined variable is used.
+
+ ----Argument & File Checks----
+2. if [ "${1:-}" = "" ]; then ... fi :-->  this checks if the first argrument meas logfile path is provided is exist or not
+3. if [ ! -f "$log" ]; then ... fi :--> this ensure that the file exits 
+4. awk :--> It is mainly used for pattern scanning and processing
+   syntax: 
+   awk 'pattern { action }' filename
+in task this used with various logics and i take help of google to write as per my task requrement
+5. percent() function --> used to combined the logic of my script.
+
+----------
+Explanation of Script Commands:- Task 2
+1. used the variable THRESHOLD=80 :--> sets the disk usage alert threshold to 80%
+2. LOGFILE="/var/log/disk-alert.log" :--> its the file path for storing disk alert logs.
+3. EMAIL="ydolly2307@gmail.com" :--> used email address to receive alerts.
+4. df -h / :--> used to display disk usage in human readable formate.
+5. awk 'NR==2 {print $5}' :--> this extracts the usage percentage value.
+6. sed 's/%//' :--> this remove the symbol of % and give value in numeric.
+7. used if else fi conditions to check the disk space usage and print the alert.
+
+
+
