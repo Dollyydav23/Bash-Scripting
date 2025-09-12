@@ -1,1 +1,6 @@
-this contain the bash scritping task 
+**Bash scripting top 4 task**
+## Task:
+1.	Bash script that monitors disk usage and generates an alert when usage exceeds a defined threshold (default: 80%).  It is ideal for system administrators and DevOps engineers to prevent servers from running out of disk space.
+2.	Creating a advanced log analyzer where we parsing a log file along with counting occurrence of "ERROR", "WARNIG", and "INFO". at the end printing the summary report with percentage.
+
+Command used for both the task are as follow:
