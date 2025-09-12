@@ -5,6 +5,51 @@ To control the os of machine we have
 2. Command Line interface  (CLI)
 
 ## REPL CONSOLE
-REPL stand for read, evaluate , print loop. A repl console is a special type of console which understancd a particular programming language and every time we run it , 
-it will expect us to add one valid instruction to the console, it will teh evalute its output, print the output and then go back to the where it is back  to the same where
-it is expecting an input from us.
+- REPL stand for read, evaluate , print loop. A repl console is a special type of console which understancd a particular programming language and every time we run it , 
+ it will expect us to add one valid instruction to the console, it will teh evalute its output, print the output and then go back to the where it is back  to the same where
+ it is expecting an input from us.
+
+## What is Shell?
+-SHELL is a general term for any command line interpreter that lets you interact with the operating system. 
+There are differnt type of shell available in linux operating system. Some which are as follows
+1. Bash (Bourne again shell)
+2. sh (Bourne shell)
+3. csh (C shell)
+4. Ksh (Korn shell)
+5. zzsh (z shell)
+
+To know, which shell types your operating system supports, type the command into the terminal 
+as given below:
+
+-->  cat /etc/shells
+
+And to know where bash is located in your OS, type the below command and you will get a specific location:
+
+-->  which bash
+
+
+so , here when you write a shell script , it just means you're writing a scripting for some shell.
+
+## What is Bash script?
+- BASH is one specific type of shell(most popular one on linux)
+  Bash scripting is shell script written specifically for bash synatx and feature.
+
+##NOTE
+- All bash script are shell scripts(because bash is shell)
+- But  not all shell script are bash script(sh,zsh,csh)
+
+## Why use BASH
+- postable: Widely avaible on unix/linux
+- Support power full scripting feature like loops, conditionals and functions.
+- Can be integrated write other linux tools for automation.
+
+## History of Bash
+- Bash scripting originated from the Bourne Shell (sh) developed in the 1970s as the first Unix shell for automation. 
+  In 1989, Brian Fox created Bash (Bourne Again SHell) for the GNU Project as a free, enhanced alternative, combining features from sh, ksh, and csh.
+  By the 1990s, Bash became the default shell on most Linux systems and later spread to macOS as well. 
+  Over time, it gained advanced scripting features like arrays, better string handling, and command substitution. 
+  Today, Bash remains a widely used scripting language in Linux/Unix environments, powering system automation, DevOps, CI/CD pipelines, and cloud computing.
+
+- Brian Fox(FSF employee) began coding on bash and released Bash asbeta , version 0.99 on june 8,
+ 1989. Brian Fox remained in FSF as the primary Bash maintainner till 1993. Then he laid off from FSF,
+ and chet Ramey (earlier contributor in FSF) got his responsibility.
