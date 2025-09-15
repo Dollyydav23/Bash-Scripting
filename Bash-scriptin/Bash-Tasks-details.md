@@ -52,7 +52,22 @@ in task this used with various logics and i take help of google to write as per 
    then it sorted by highest usage , then head shows top 5 row.
 ---
 ## Explanation of Script Commands:- Task 4
-1. 
+1. **read -p:** This commaand takes the input form user and -p flag display  the promt message.
+2. Used the if conditional statements.
+3. To check if ! -e Filename (that file exist or not) and if file not exists it print the message and exits the script with exit 1.
+4. To check if -r Filename (that file is readable or not) and if file is readable it will give the positve meassage and otherwise it will retrun negative meassage.
+5. To check if -w Filename (that file has write permission or not) and if file is writable is print the given message.
+6. To check if -x Filename (that file has excute permission).
+
+## Explanation of Script Commands:- Task 5
+1. **read -p:** This commaand takes the input form user and -p flag display  the promt message.
+2. Used the if conditional statements.
+3. To check if ! -e Filename (that file exist or not) and if file not exists it print the message and exits the script with exit 1.
+4. Create the backup using the current timestamp and $(date +%Y%m%d%H%M%S) produces something like 20250915143000 (year, month, day, hour, minute, second).
+5. Check -d Filename (Checks if the target is a directory using -d).
+6. **cp -r:** If it is a directory, this  cp -r recursively copies all contents.
+7. read -p "Enter new permissions (octal, e.g., 644 or 755): " perms :--> this prompt the user to enter new permissions in octal formate.
+8. **chmod -R:** Change the permission recurively.
 
 
 
