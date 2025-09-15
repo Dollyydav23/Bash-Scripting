@@ -3,6 +3,8 @@
 1.	Bash script that monitors disk usage and generates an alert when usage exceeds a defined threshold (default: 80%).  It is ideal for system administrators and DevOps engineers to prevent servers from running out of disk space.
 2.	Creating a advanced log analyzer where we parsing a log file along with counting occurrence of "ERROR", "WARNIG", and "INFO". at the end printing the summary report with percentage.
 3. Bash script that checks the CPU, Memory, Disk Usage, Uptime and Processes and save the result in system_health.log.
+4. This Bash script allows you to check the read, write, and execute permissions of a file for the current user.
+5. 
 
 **Command used for  the task are as follow:**
 ## Explanation of Script Commands:- Task 1
