@@ -4,7 +4,7 @@
 2.	Creating a advanced log analyzer where we parsing a log file along with counting occurrence of "ERROR", "WARNIG", and "INFO". at the end printing the summary report with percentage.
 3. Bash script that checks the CPU, Memory, Disk Usage, Uptime and Processes and save the result in system_health.log.
 4. This Bash script allows you to check the read, write, and execute permissions of a file for the current user.
-5. 
+5. This script will take a file and directory as input and create a backup copy and Changes the permissions of the original file/directory.
 
 **Command used for  the task are as follow:**
 ## Explanation of Script Commands:- Task 1
@@ -50,6 +50,10 @@ in task this used with various logics and i take help of google to write as per 
    **pid:** Give the process id.
    **%cpu/ %mem:** Give the resource usage.
    then it sorted by highest usage , then head shows top 5 row.
+---
+## Explanation of Script Commands:- Task 4
+1. 
+
 
 
 
